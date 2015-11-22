@@ -1,11 +1,11 @@
-h2 {
-	height: 300px;
-}
 
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
 
 .input {
 	position: relative;
-/*	z-index: 1;*/
+	z-index: 1;
 	display: inline-block;
 	margin: 1em;
 	max-width: 350px;
@@ -57,24 +57,12 @@ h2 {
 	width: 100%;
 }
 
-.graphic {
-	position: absolute;
-	top: 0;
-	left: 0;
-	fill: none;
-}
-
-.icon {
-	color: #ddd;
-	font-size: 150%;
-}
-
 /* Individual styles */
 
 
 
 /* Nariko */
-.input--nariko {
+/*.input--nariko {
 	overflow: hidden;
 	padding-top: 2em;
 }
@@ -147,10 +135,14 @@ h2 {
 	-webkit-transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
 	transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
 }
-
+*/
 
 /* Yoshiko */
+
+
 .input__field--yoshiko {
+	position: relative;
+	/*left: 50px;*/
 	width: 100%;
 	background-color: #d0d1d0;
 	border: 2px solid transparent;
@@ -162,6 +154,7 @@ h2 {
 	width: 100%;
 	text-align: left;
 	position: absolute;
+	/*position: relative;*/
 	bottom: 100%;
 	pointer-events: none;
 	overflow: hidden;

@@ -5,10 +5,11 @@
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
-		<h2>Input Field Redesign</h2>
+		
 
 	<div class="container">
 	<section class="content">
+			<h2>Input Field Redesign</h2>
 			<span class="input input--yoshiko">
 				<input class="input__field input__field--yoshiko" type="text" id="input-10">
 				<label class="input__label input__label--yoshiko" for="input-10">
@@ -34,7 +35,9 @@
 	
 </body>
 		<script src="main.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script>
+			// $(".focus").addClass("input--filled");
 			(function() {
 				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
 					// in case the input is already filled..
@@ -57,5 +60,6 @@
 					}
 				}
 			})();
+			
 		</script>
 </html>
