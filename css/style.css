@@ -10,6 +10,7 @@ body {
 	display: block;
 	margin: auto;
 	width: 92%;
+	background-color: #f9f7f6;
 }
 
 /*************************************
@@ -25,10 +26,12 @@ header {
 h2 {
 	margin-bottom: 0;
     font-family: sans-serif; 
+    color: #415254;
 }
 
 p {
 	font-size: 0.8em;
+	color: #55614E;
 }
 
 /*************************************
@@ -53,15 +56,18 @@ p {
 	padding: 0.8em;
 	width: 60%;
 	border-radius: 0;
-	color: #3C7D84;
+	/*color: #3C7D84;*/
+	/*color: #a7b8ba;*/
+	color: #8d9ea0;
+	/*color: #A2AE9B;*/
 	font-weight: 400;
     font-size: 16px; 
 	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-appearance: none;
 	width: 100%;
-/*	background-color: #d0d1d0;*/
+	/*background-color: #d0d1d0;*/
     background-color: #A4D0D6; 
-/*    outline: none;*/
+    background-color: #C0D1D3;
 	border: 2px solid transparent;
 	-webkit-transition: background-color 0.25s, border-color 0.25s;
 	transition: background-color 0.25s, border-color 0.25s;
@@ -78,7 +84,7 @@ p {
 	display: inline-block;
 	float: right;
 /*	color: #696969;*/
-    color: #718F93;
+    color: #daebed;
 	font-weight: bold;
 	font-size: 70.25%;
 	-webkit-font-smoothing: antialiased;
@@ -110,7 +116,8 @@ p {
 	display: block;
 	padding: 1.6em 0;
 	width: 100%;
-	color: #428891;
+	/*color: #428891;*/
+	color: #296f78;
 	padding: 0.25em 0;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
@@ -128,6 +135,8 @@ p {
 	height: 100%;
 	width: 100%;
 	color: #428891;
+	/*color: #296f78;*/
+	color: #95A18E;
 	padding: 0.25em 0;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -152,8 +161,14 @@ p {
 
 .input__field:focus + .input__field,
 .input--filled .input__field {
-	background-color: #C0D1D3;
-/*	border-color: #428891;*/
+	/*border-color: #C0D1D3;*/
+	border-color: #95A18E;
+/*	border-left: none;
+	border-right: none;*/
+	/*background-color: #C0D1D3;*/
+	/*border-color: #428891; */
+	/*background-color: #daebed;*/
+	background-color: #f9f7f6;
 }
 
 
