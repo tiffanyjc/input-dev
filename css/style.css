@@ -8,9 +8,15 @@
 
 body {
 	display: block;
-	margin: auto;
+	margin: 0 auto;
 	width: 92%;
 	background-color: #f9f7f6;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow: hidden;
+}
+
+.content {
+	height: 120px;
 }
 
 /*************************************
@@ -58,15 +64,15 @@ p {
 	border-radius: 0;
 	/*color: #3C7D84;*/
 	/*color: #a7b8ba;*/
-	color: #8d9ea0;
+	color: #748587;
 	/*color: #A2AE9B;*/
 	font-weight: 400;
-    font-size: 16px; 
-	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
 	-webkit-appearance: none;
 	width: 100%;
 	/*background-color: #d0d1d0;*/
-    background-color: #A4D0D6; 
+    /*background-color: #A4D0D6; */
     background-color: #C0D1D3;
 	border: 2px solid transparent;
 	-webkit-transition: background-color 0.25s, border-color 0.25s;
